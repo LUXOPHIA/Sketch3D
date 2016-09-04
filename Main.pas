@@ -45,7 +45,7 @@ uses System.Math;
 
 function TForm1.ScrTo3D( const P_:TPointF ) :TPoint3D;
 var
-   W, H, D :Single;
+   W, H :Single;
    S, P :TPoint3D;
 begin
      W := Viewport3D1.Width  / 2;
